@@ -16,7 +16,7 @@
 <div id="navigation">
 <br>
 <ul>
-<li><a id="navhome" href="index.php">Home</a></li>
+<li><a id="navhome" href="../index.html">Home</a></li>
 <li><a id="navabout" href="about.php">About</a></li>
 <li><a id="navphotography" href="photography.php">Photography</a></li>
 <li><a id="navwebsites" href="websites.php">Websites</a></li>

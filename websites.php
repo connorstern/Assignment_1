@@ -5,7 +5,7 @@
 
 <title>Websites</title>
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link href="stylesheet.css" rel="stylesheet" type="text/css">
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 
 </head>
 

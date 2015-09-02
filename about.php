@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>About Me</title>
 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link href="stylesheet.css" rel="stylesheet" type="text/css">
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 <style>
  li.points {
 	 display:block;
