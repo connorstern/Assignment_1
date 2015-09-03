@@ -51,7 +51,14 @@ a:visited {
 a {
   text-decoration: none; }
 //changed alignment
+.title {
+  margin-left: 13%;
+  margin-top: 3%;
+  height: 50px;
+  width: 75%;
+  border-bottom: 3px solid #941512; }
 h1 {
+	@extend .title;
   color: #DDDDDD;
   text-align: $align; }
  h1 {
@@ -107,27 +114,23 @@ h5 {
   height: 770px;
   opacity: 0.9; }
 
-.title {
-  margin-left: 13%;
-  margin-top: 3%;
-  height: 50px;
-  width: 75%;
-  border-bottom: 3px solid #941512; }
+@mixin title {
+	border-bottom: 3px solid #941512;
+	float: left; }
+	
 
 .title2 {
   margin-left: 13%;
   margin-top: 2%;
-  float: left;
   height: 50px;
-  width: 75%;
-  border-bottom: 3px solid #941512; }
-
+  width: 75%; 
+  @include title;
+}
 .title3 {
   height: 75px;
   width: 35%;
-  border-bottom: 3px solid #941512;
-  float: left;
-  margin-left: 20%; }
+  margin-left: 20%;
+  @include title; }
 //changed position
 #skills {
   float: left;
